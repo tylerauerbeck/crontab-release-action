@@ -1,0 +1,5 @@
+name: 'cron-releaser'
+description: 'Cut a release according to a cron schedule as long as there have been commits since the last run'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
